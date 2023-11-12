@@ -16,12 +16,20 @@
   padding: 18px 35px;
   cursor: pointer;
 }
+.header {
+  background: #fff8f3;
+  background-image: url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 25px;
+}
 
 /* Header and Navigation style */
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 230px;
+  margin: 0px 230px;
+  padding: 50px 0;
 }
 nav ul {
   display: flex;
@@ -35,4 +43,39 @@ nav li {
 .nav-title {
   font-size: 45px;
   font-weight: 800;
+}
+/* Banner styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner-content {
+  margin-left: 200px;
+}
+.banner-subtitle {
+  font-size: 45px;
+}
+.banner-title {
+  font-size: 85px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.banner-text {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.banner-image {
+  margin-right: 35px;
+}
+
+.btn-contact {
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+  background: #fff8f3;
 }
