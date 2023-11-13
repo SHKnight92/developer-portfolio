@@ -79,3 +79,33 @@ nav li {
   margin-left: 30px;
   background: #fff8f3;
 }
+
+/* main section */
+.container{
+    margin: 110px 180px;
+  
+}
+.section-container{
+    background: #FFF8F3;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+.section-title{
+    font-size: 35px;
+}
+.section-text{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0;
+}
+.info{
+  margin-right: 30px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-description{
+    font-weight: bold;
+}
