@@ -34,8 +34,6 @@
   font-weight: normal;
 }
 
-
-
 /* Header and Navigation style */
 nav {
   display: flex;
@@ -130,4 +128,31 @@ nav li {
   box-shadow: 0px 0px 10px -5px;
   padding: 20px;
   border-radius: 5px;
+}
+/* resume styles */
+
+.resume{
+  display: flex;
+  gap: 25px;
+  margin: 60px 0;
+  text-align: left;
+}
+.education-content,.experience-content{
+  margin:30px 0;
+}
+.education>h3,.experience>h3{
+margin: 10px 0;
+color: #474747;
+font-size: 25px;
+}
+.education-content>h4,.experience-content>h4{
+margin:10px 0;
+color: #474747;
+}
+.education-content>h5,.experience-content>h5{
+color: #757575;
+}
+.education-content>p,.experience-content>p{
+margin:10px 0;
+color: #757575;
 }
