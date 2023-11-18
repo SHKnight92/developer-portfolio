@@ -2,9 +2,11 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+
 .text-primary {
   color: #fd6e0a;
 }
+
 .btn-primary {
   height: 64px;
   background-color: #fd6e0a;
@@ -16,21 +18,25 @@
   padding: 18px 35px;
   cursor: pointer;
 }
+
 .bg {
   background: #fff8f3;
 }
+
 .header {
   background-image: url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: left center;
   background-position-x: 25px;
 }
+
 .title {
   font-size: 18px;
   padding: 10px 0;
   font-weight: 700;
 }
-.normal{
+
+.normal {
   font-weight: normal;
 }
 
@@ -41,14 +47,17 @@ nav {
   margin: 0px 230px;
   padding: 50px 0;
 }
+
 nav ul {
   display: flex;
   align-items: center;
 }
+
 nav li {
   list-style: none;
   margin-left: 50px;
 }
+
 .nav-title {
   font-size: 45px;
   font-weight: 800;
@@ -62,25 +71,31 @@ nav li {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
 .banner-content {
   margin-left: 200px;
 }
+
 .banner-subtitle {
   font-size: 45px;
 }
+
 .banner-title {
   font-size: 85px;
   margin-bottom: 20px;
   margin-top: 5px;
 }
+
 .banner-text {
   font-size: 18px;
   color: #757575;
   margin-bottom: 30px;
 }
+
 .banner-image {
   margin-right: 35px;
 }
+
 .btn-contact {
   color: #fd6e0a;
   border: 1px solid #fd6e0a;
@@ -95,33 +110,41 @@ nav li {
   border-radius: 10px;
   margin: 80px 140px;
 }
+
 .section-title {
   font-size: 35px;
 }
+
 .section-text {
   font-size: 18px;
   color: #757575;
   margin: 30px 0;
 }
+
 .info {
   margin-right: 30px;
 }
+
 .info-container {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 }
-.skill-container{
+
+.skill-container {
   display: flex;
   gap: 20px;
 }
+
 .info-description {
   font-weight: 700;
 }
+
 .info-text {
   font-size: 14px;
   color: #757575;
 }
+
 .skill {
   text-align: left;
   margin: 5px;
@@ -129,30 +152,41 @@ nav li {
   padding: 20px;
   border-radius: 5px;
 }
+
 /* resume styles */
 
-.resume{
+.resume {
   display: flex;
   gap: 25px;
-  margin: 60px 0;
+  margin: 50px 0;
   text-align: left;
 }
-.education-content,.experience-content{
-  margin:30px 0;
+
+.education-content,
+.experience-content {
+  margin: 30px 0;
 }
-.education>h3,.experience>h3{
-margin: 10px 0;
-color: #474747;
-font-size: 25px;
+
+.education>h3,
+.experience>h3 {
+  margin: 10px 0;
+  color: #474747;
+  font-size: 25px;
 }
-.education-content>h4,.experience-content>h4{
-margin:10px 0;
-color: #474747;
+
+.education-content>h4,
+.experience-content>h4 {
+  margin: 10px 0;
+  color: #474747;
 }
-.education-content>h5,.experience-content>h5{
-color: #757575;
+
+.education-content>h5,
+.experience-content>h5 {
+  color: #757575;
 }
-.education-content>p,.experience-content>p{
-margin:10px 0;
-color: #757575;
+
+.education-content>p,
+.experience-content>p {
+  margin: 10px 0;
+  color: #757575;
 }
