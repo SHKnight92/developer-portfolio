@@ -190,3 +190,37 @@ nav li {
   margin: 10px 0;
   color: #757575;
 }
+
+/* contact styles */
+.contact-section {
+  display: flex;
+  gap: 25px;
+  text-align: left;
+}
+
+.connect,
+.massage {
+  padding: 10px;
+}
+
+.connect>h4,
+.massage>h4 {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #181818;
+}
+
+.massage>form>.input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: none;
+}
+
+.icon {
+  margin: 10px 0;
+}
+
+.icon>a>img {
+  padding: 5px;
+}
